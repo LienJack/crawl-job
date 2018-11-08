@@ -1,0 +1,25 @@
+{
+  "name": "crawl-job",
+  "version": "1.0.0",
+  "description": "一时开坑爽，填坑火葬场",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LienJack/crawl-job.git"
+  },
+  "author": "lien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LienJack/crawl-job/issues"
+  },
+  "homepage": "https://github.com/LienJack/crawl-job#readme",
+  "dependencies": {
+    "koa": "^2.6.1",
+    "puppeteer": "^1.10.0",
+    "supervisor": "^0.12.0"
+  }
+}
